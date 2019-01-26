@@ -21,10 +21,10 @@ public class DigitalClock extends JFrame {
      setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
      jlabClock.setFont(new Font("Arial", Font.CENTER_BASELINE, 80));
      jlabClock.setOpaque(true);
-     jlabClock.setBackground(Color.BLACK);
-     jlabClock.setForeground(Color.WHITE);
+     jlabClock.setBackground(Color.WHITE);
+     jlabClock.setForeground(Color.BLACK);
      add(jlabClock);
-     setSize(1200,120);
+     setSize(1200,1200);
      setLocationRelativeTo(null);
      ct = new ClockThread(this);
      setVisible(true);
